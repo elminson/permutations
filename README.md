@@ -8,8 +8,8 @@ Ex.
     $colors = ['Black', 'White'];
     $storageCapacities = ['64GB', '128GB'];
 
-    // Generating variations using Permutations::permutations
-    $actualVariations = Permutations::permutations([$colors, $storageCapacities]);
+    // Generating variations using Permutations::generate
+    $actualVariations = Permutations::generate([$colors, $storageCapacities]);
 ```
 
 Result

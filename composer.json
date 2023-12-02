@@ -1,6 +1,6 @@
 {
     "name": "elminson/permutations",
-    "description": "The Permutation generagtor package",
+    "description": "The Permutations generator package",
     "type": "library",
     "license": "MIT",
     "autoload": {

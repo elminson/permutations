@@ -12,7 +12,7 @@ class Permutations
 	 *
 	 * @return array
 	 */
-	public static function permutations(array $array = [], bool $includeOriginalArray = false)
+	public static function generate(array $array = [], bool $includeOriginalArray = false)
 	{
 
 		$permutations = $includeOriginalArray ? $array : [];

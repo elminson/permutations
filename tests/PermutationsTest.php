@@ -30,6 +30,7 @@ class PermutationsTest extends TestCase
 		$array6 = ['EF', 'GH'];
 		$permutationsExpected = [ ['AB', 'CD'], ['EF', 'GH'], ['AB', 'EF'], ['AB', 'GH'], ['CD', 'EF'], ['CD', 'GH']];
 		$permutationsElements = Permutations::generate([$array5, $array6], $includeOriginalArray);
+		print_r($permutationsElements);
 		$this->assertEquals($permutationsExpected, $permutationsElements);
 
 		$array7 = ['AB', 'CD'];
